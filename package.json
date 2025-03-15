@@ -1,0 +1,21 @@
+{
+  "name": "recipe-crud",
+  "version": "1.0.0",
+  "description": "A simple CRUD API for managing recipes",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "type":"module",
+    "express": "^4.18.2",
+    "mongoose": "^7.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
