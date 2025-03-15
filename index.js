@@ -3,7 +3,7 @@ import cors from "cors";
 import dotenv from "dotenv";
 import bodyParser from "body-parser";
 import connectDB from "./config/db.js";
-import recipeRoutes from "./routes/recipe.routes.js"; // ✅ Ensure correct path
+import recipeRoutes from "./routes/recipe.routes.js";
 
 dotenv.config();
 connectDB();
